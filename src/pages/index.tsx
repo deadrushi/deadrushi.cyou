@@ -3,7 +3,7 @@ import { PageWrapper } from "@/components/PageWrapper";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import { ACTIVITY_TRANSITION,} from "@/util/const";
+//import { ACTIVITY_TRANSITION,} from "@/util/const";
 import { LanyardData } from "@/util/lanyard";
 import { Tooltip } from "@/components/Tooltip";
 
@@ -153,7 +153,7 @@ export default function Home() {
 
 // I miss nextjs 12
 
-const LinkPreview = ({
+
   href,
   preview,
   children,
