@@ -3,7 +3,8 @@ import { PageWrapper } from "@/components/PageWrapper";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-
+import { ACTIVITY_TRANSITION,} from "@/util/const";
+import { LanyardData } from "@/util/lanyard";
 import { Tooltip } from "@/components/Tooltip";
 
 export default function Home() {
@@ -38,7 +39,7 @@ export default function Home() {
               <p>- into photography and researching internet culture</p>
               <p>- love skating, cycling, and visual novels</p>
               <p>- interested in fashion and design</p>
-              <p>- i think that's all for now...</p>
+              <p>- i think that&apos;s all for now...</p>
             </div>
           </div>
 
