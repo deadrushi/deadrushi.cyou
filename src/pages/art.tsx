@@ -1,7 +1,5 @@
 import { PageContent } from "@/components/PageContent";
 import { PageWrapper } from "@/components/PageWrapper";
-import { Gallery } from "@/components/art/Gallery";
-
 const COLLECTIONS = [
   {
     name: "SPHERUS",
@@ -90,7 +88,6 @@ export default function Art() {
         </div>
       </PageContent>
 
-      <Gallery />
     </PageWrapper>
   );
 }
