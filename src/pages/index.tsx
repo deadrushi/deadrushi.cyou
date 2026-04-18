@@ -2,7 +2,6 @@ import { PageContent } from "@/components/PageContent";
 import { PageWrapper } from "@/components/PageWrapper";
 import { motion } from "motion/react";
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import { LanyardData } from "@/util/lanyard";
 import { Tooltip } from "@/components/Tooltip";
 
