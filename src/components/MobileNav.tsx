@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 const PAGES = {
   home: "/",
   art: "/art",
-  me: "/more",
+  me: "/me",
 } as const;
 
 export const MobileNav = () => {
