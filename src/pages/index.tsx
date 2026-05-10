@@ -56,7 +56,7 @@ export default function Home() {
                 github
               </a>
               <a
-                href="https://x.com/gotiktaciri"
+                href="https://x.com/deadrushi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium hover:text-[#99ccff]"
